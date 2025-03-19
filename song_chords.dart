@@ -1,6 +1,6 @@
 // Attribute
 class Chords {
-  String songUrl;
+  final String songUrl;
 
   // Konstruktor
   Chords(this.songUrl);

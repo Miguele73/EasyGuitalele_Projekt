@@ -1,19 +1,19 @@
 // Attribute
 class UsersFav {
-  String songTitel;
-  String artist;
-  bool tabsOrChords;
-  double songLenght;
-  int songLevel;
-  double songRating;
+  final String songTitel;
+  final String artist;
+  final bool tabsOrChords;
+  final double songLenght;
+  final int songLevel;
+  final double songRating;
 
   // konstruktor
-  UsersFav(
-    this.songTitel,
-    this.artist,
-    this.tabsOrChords,
-    this.songLenght,
-    this.songLevel,
-    this.songRating,
-  );
+  UsersFav({
+    required this.songTitel,
+    required this.artist,
+    required this.tabsOrChords,
+    required this.songLenght,
+    required this.songLevel,
+    required this.songRating,
+  });
 }

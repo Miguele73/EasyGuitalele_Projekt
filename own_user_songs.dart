@@ -1,11 +1,11 @@
 // Attribute
 class OwnSongs {
-  String title;
-  String writtenBy;
-  double length;
-  String release;
-  String genre;
-  int songLevel;
+  final String title;
+  final String writtenBy;
+  final double length;
+  final String release;
+  final String genre;
+  final int songLevel;
 
   OwnSongs(
     this.title,

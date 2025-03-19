@@ -1,9 +1,14 @@
 // Attribute
 class User {
-  String name;
-  String nick;
-  int userLevel;
-  String profilePicUrl;
+  final String name;
+  final nick;
+  final userLevel;
+  final String profilePicUrl;
   // Konstruktor
-  User(this.name, this.nick, this.userLevel, this.profilePicUrl);
+  User({
+    required this.name,
+    required this.nick,
+    required this.userLevel,
+    required this.profilePicUrl,
+  });
 }
