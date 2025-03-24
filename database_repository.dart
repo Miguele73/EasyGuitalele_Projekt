@@ -11,9 +11,11 @@ abstract class DatabaseRepository {
   void removeFromFavorites();
   void showFavorites();
   void showLevels();
+  void showChordList();
   List<String> getSongNotes();
   List<String> getSongChords();
   List<String> getSongTitles();
   List<String> getSongArtists();
   List<String> getSongLevels();
+  List<String> getChordList();
 }
