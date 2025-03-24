@@ -7,6 +7,10 @@ abstract class DatabaseRepository {
   void addSongChords();
   void deleteSongNotes();
   void deleteSongChords();
+  void addToFavorites();
+  void removeFromFavorites();
+  void showFavorites();
+  void showLevels();
   List<String> getSongNotes();
   List<String> getSongChords();
   List<String> getSongTitles();
