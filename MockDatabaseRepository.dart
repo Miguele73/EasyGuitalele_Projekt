@@ -5,7 +5,7 @@ class Mockdatabaserepository implements DatabaseRepository {
   List<Artists> artists = [];
   List<Level> levels = [];
   List<WholeChordList> chordList = [];
-  List<Songs> favorites = [];
+  List<FavSongs> favorites = [];
   List<Songs> getSongTitles() {
     return songs;
   }
