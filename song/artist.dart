@@ -1,9 +1,9 @@
-class Artists {
+class Artist {
   String name;
   String imageUrl;
   String description;
 
-  Artists({
+  Artist({
     required this.name,
     required this.imageUrl,
     required this.description,
