@@ -1,7 +1,10 @@
 import 'artist.dart';
 
+enum SongDifficulty { veryEasy, easy, medium, hard, master }
+
 abstract class Song {
   final String id;
+  final SongDifficulty difficulty;
   final String coverUrl;
   final String title;
   final String description;
@@ -13,6 +16,7 @@ abstract class Song {
     required this.title,
     required this.coverUrl,
     required this.description,
+    required this.difficulty,
     this.artist,
     this.lengthOfSong,
   });

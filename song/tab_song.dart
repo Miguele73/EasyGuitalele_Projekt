@@ -8,6 +8,7 @@ class TabsSong extends Song {
     required super.title,
     required super.coverUrl,
     required super.description,
+    required super.difficulty,
     super.artist,
     required this.tabImgUrl,
   });

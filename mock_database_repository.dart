@@ -5,6 +5,7 @@ import 'song/tab_song.dart';
 import 'user_fav.dart';
 
 class MockDatabaseRepository implements DatabaseRepository {
+  // Simulierte Datenbank
   List<ChordSong> chordSongs = [];
   List<TabsSong> tabsSongs = [];
   List<UsersFav> favorites = [];
